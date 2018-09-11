@@ -25,10 +25,12 @@ import java.lang.annotation.Target;
 
 /**
  * Annotation to mark classes and methods for public use, but with evolving interfaces.
- *
+ * 该注解用于标记，公开使用的类和方法
+ * 
  * <p>Classes and methods with this annotation are intended for public use and have stable behavior.
  * However, their interfaces and signatures are not considered to be stable and might be changed
  * across versions.
+ * <p>但是，它们的接口和签名不被认为是稳定的，并且可能会在不同版本之间进行更改</p>
  *
  * <p>This annotation also excludes methods and classes with evolving interfaces / signatures
  * within classes annotated with {@link Public}.

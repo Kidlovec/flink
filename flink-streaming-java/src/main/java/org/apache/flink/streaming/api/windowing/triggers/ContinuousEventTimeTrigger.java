@@ -30,6 +30,7 @@ import org.apache.flink.streaming.api.windowing.windows.Window;
 /**
  * A {@link Trigger} that continuously fires based on a given time interval. This fires based
  * on {@link org.apache.flink.streaming.api.watermark.Watermark Watermarks}.
+ * 基于给定时间间隔的触发器，通过 watermarks 实现首次触发。
  *
  * @see org.apache.flink.streaming.api.watermark.Watermark
  *
