@@ -182,6 +182,7 @@ public class CliFrontend {
 	protected void run(String[] args) throws Exception {
 		LOG.info("Running 'run' command.");
 
+		//命令行选项类，继承自ProgramOptions
 		final Options commandOptions = CliFrontendParser.getRunCommandOptions();
 
 		final Options commandLineOptions = CliFrontendParser.mergeOptions(commandOptions, customCommandLineOptions);
